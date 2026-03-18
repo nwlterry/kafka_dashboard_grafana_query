@@ -1,0 +1,1 @@
+The Formula last_value(prometheus.jvm_memory_bytes_used.value, kql='prometheus.labels.area: "heap"' ) / last_value ( prometheus.jvm_memory_bytes_max.value, kql='prometheus.labels.area: "heap"' )) cannot be parsed
